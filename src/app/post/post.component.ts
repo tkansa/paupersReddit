@@ -1,9 +1,6 @@
 // import the Input decorator
 import { Component, OnInit, Input } from '@angular/core';
 
-// import the single post interface
-import { Post } from '../interfaces/posts'
-
 interface RedditPost {
   title: string;
   url: string;
